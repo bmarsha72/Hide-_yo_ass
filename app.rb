@@ -18,7 +18,6 @@ puts Rainbow(ENV["APP_NAME"]).yellow.inverse
   def show_secrets
     p ENV.length.to_s + " is the length of ENV"
 
-
 end
 
   def get_movie
